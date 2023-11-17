@@ -7,7 +7,7 @@ class HomeController extends GetxController {
   var selectedImagePath = ''.obs;
   var extractedText = ''.obs;
 
-  ///get image method
+  ///get image methodkl
   getImage(ImageSource imageSource) async {
     final pickedFile =
         await ImagePicker().pickImage(source: ImageSource.gallery);
@@ -46,3 +46,4 @@ class HomeController extends GetxController {
     }
   }
 }
+
